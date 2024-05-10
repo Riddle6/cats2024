@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats - The world's second best pet!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+        <header>
+            <h1>Cats</h1>
+            <blockquote>The World's #2 Pet</blockquote>
+        </header>
+
+        <nav>
+            <p class="navImgMap">
+                <img src="images/graphic_navbar.jpg" alt="Navigation Bar" class="navImg" usemap="#navmap">
+            </p>
+            <map name="navmap">
+                <area shape="rect" coords="5, 25, 80, 85" href="index.html" alt="Home Page">
+                <area shape="rect" coords="83, 25, 123, 85" href="history.html" alt="History Page">
+                <area shape="rect" coords="126, 25, 216, 85" href="description.html" alt="Description Page">
+                <area shape="rect" coords="218, 25, 295, 85" href="characteristics.html" alt="Characteristics Page">
+                <area shape="rect" coords="298, 25, 352, 85" href="temperament.html" alt="Temperament Page">
+                <area shape="rect" coords="355, 25, 445, 85" href="newsletter.html" alt="Newsletter Page">
+            </map>
+        </nav>
+
+        <main>
+
+            <h2>Subscribe to our newsletter!</h2>
+
+                <p>Complete and submit this form to receive our monthly newsletter “Mad About Cats”, via email.</p>
+
+                <div class="table-container form-container">
+                <form action="mailto:cte-christian.riddle@sllboces.org" method="get">
+                <table>
+                    <caption>If you are interested in learning more about Cats, please sign up for our monthly newsletter!</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Your Image Goes Here:</th>
+                            <th>Your Form Goes Here:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">
+                                <img src="images/cat1.jpeg" alt="It's a picture of a cat.">
+                            </td>
+                            <td>
+                                <label for="fName">Your First Name:</label>
+                                <input type="text" id="fName" name="fName" required>
+                            </td>
+                        </tr>
+
+                        <tr> <!-- Row 2 of this form-->
+                            <td>
+                                <label for="lName">Enter Last Name</label>
+                                <input type="text" id="lName" name="lName" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">Enter Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                 <input type="submit" value="Submit">
+                                 <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                </form>
+                </div>
+
+        </main>
+
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="description.html">Description</a></li>
+                <li><a href="characteristics.html">Characteristics</a></li>
+                <li><a href="temperament.html">Temperament</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+                <li><a href="template.html">Template</a></li>
+            </ul>
+
+            <h5>&copy; Copyright 2024. All Rights Reserved.</h5>
+            <h5>Last Updated: 05/10/2024</h5>
+        </footer>
+</body>
+</html>

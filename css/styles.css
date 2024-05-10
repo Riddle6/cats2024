@@ -1,0 +1,192 @@
+/*
+Color Palette:
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+
+/* Font Families:
+"Underdog"
+"Rokkitt"
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&family=Underdog&display=swap');
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+
+body {
+    background-color: #F7A26C;
+}
+
+h1 {
+    padding: 1%;
+    text-align: center;
+    font-family: "Rokkitt", "Underdog", sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    text-align: center;
+    padding: 1%;
+    font-family: "Rokkitt", "Underdog", sans-serif;
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+h3 {
+    padding: 1.5%;
+    font-size: 2em;
+    font-family: "Rokkitt", "Underdog", sans-serif;
+    margin-left: 50px;
+}
+
+
+header, nav {
+    background-color: #804720;
+}
+
+
+ol {
+    padding: 1%;
+    margin-left: 3%;
+    font-family: "Underdog", "Rokkitt", sans-serif;
+    margin-left: 100px;
+    font-size: 1.2em;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+nav {
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navImgMap {
+    text-align: center;
+}
+
+nav a:hover {
+
+}
+
+main {
+    
+}
+
+main p {
+    margin-top: 0.5%;
+    margin-bottom: 4%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 1%;
+    background-color: #E76A1A;
+    font-family: "Underdog", "Rokkitt", sans-serif;
+    border-radius: 12px;
+    font-size: 1.4em;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 1.65em;
+    font-family: "Underdog", "Rokkitt", sans-serif;
+}
+
+.table-container {
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+   /* border: 1px solid #ccc; */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-left: 25px;
+    background: #CCAF9D;
+    padding: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Includes padding and border in width */
+}
+
+footer {
+    padding: 1%;
+    text-align: center;
+    background-color: #5C3317;
+    color: #CCAF9D;
+    min-height: 40px;
+}
+
+/* Footer Navigation */
+footer li {
+    list-style-type: none;
+    float: left;
+    padding: 1%;
+}
+
+footer li a {
+    text-decoration: none;
+    font-family: "Rokkitt", "Underdog", sans-serif;
+    color: #CCAF9D;
+    background-color: #804720;
+    border-radius: 6px;
+    padding: 3%;
+    clear: both;
+}
+
+footer li a:hover {
+    background-color: #CCAF9D;
+    color: #5C3317;
+}
+
